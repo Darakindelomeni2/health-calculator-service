@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'health-calculator-app' # Nom de l'application Azure
         publish-profile: ${{ secrets.AZURE_HEALTH_CALCULATOR_APP_PUBLISH_PROFILE }} # Secret généré sur l'application Azure
-        package: ./health-calculator-service
+        package: .
 
