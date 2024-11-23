@@ -82,12 +82,15 @@ On ajoute le profil de publication dans les secrets et variables de notre reposi
 On modifie la ligne correspondante de notre ci-cd.yml pour qu'elle corresponde au secret généré  
 ![modified-ci-cd-yml](assets/modified-ci-cd-yml.png)  
 
+Les pipelines remontent bien  
+![pipeline-remontent](assets/pipeline-remontent.png)  
+
 ## **Test de l'application sur Azure**
 Test de la fonction calculate_imc  
-![](assets)  
+![test-imc-azure](assets/test-imc-azure.png)  
 
 Test de la fonction calculate_mb pour un homme  
-![](assets)  
+![test-mb-homme-azure](assets/test-mb-homme-azure.png)  
 
 Test de la fonction calculate_mb pour une femme  
-![](assets)  
+![test-mb-femme-azure](assets/test-mb-femme-azure.png)  
