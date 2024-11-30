@@ -77,7 +77,7 @@ Afin de faire fonctionner notre propre `ci-cd.yml` on récupère le profil de pu
 ![profil-publication](assets/profil-publication.png)  
 
 On ajoute le profil de publication dans les secrets et variables de notre repository github  
-![github-add-secrets](assets/github-add-secrets.png)  
+ 
 
 On modifie la ligne correspondante de notre `ci-cd.yml` pour qu'elle corresponde au secret généré  
 ![modified-ci-cd-yml](assets/modified-ci-cd-yml.png)  
